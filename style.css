@@ -51,9 +51,19 @@ header {
     flex: 0 1 100%;
     grid-column: 1 / -1;
     background-color: cornflowerblue;
+    color: black;
 }
-.footer-copyright{
-    background-color: rgba(62, 91, 145, 0.753);
+.linksFooter__icons{
+    width: 30px;
+    height: 30px;
+}
+.uLinks{
+    list-style-type: none;
+    overflow: hidden;
+}
+.uLinks li{
+    float: left;
+    padding: 20px;
 }
 
 /* texto conteudo*/
@@ -77,11 +87,7 @@ p, .itensConteudo{
 .itensConteudo:hover::before {
   border-color: cornflowerblue; 
 }
-/* Icone Links*/
-.linksFooter__icons{
-    width: 30px;
-    height: 30px;
-}
+
 /* grid */
 .wrapper {
     display: grid;
@@ -132,7 +138,20 @@ p, .itensConteudo{
     background-color: green;
 }
 .panel2 {
-    grid-column: col 21 / span 3;
-    grid-row: row;
+    grid-column: col 11 / span 3;
+    grid-row: row / span 10;
     background-color: red;
+}
+.panel3 {
+    grid-column: col / span 10;
+    grid-row: row 2;
+    background-color: blue;
+}
+
+/* Cards */
+#cardICMS{
+    background-color: red;
+}
+.lMais{
+    color: cornflowerblue;
 }
