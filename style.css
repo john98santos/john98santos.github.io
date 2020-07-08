@@ -1,4 +1,14 @@
-
+/* body */
+body {
+    margin: 40px;
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: #fff;
+    color: #444;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+  
 /* Elementos nav */
 .nav-wrapper{
     background-color: cornflowerblue;
@@ -8,6 +18,12 @@
 }
 
 /* Elementos header */
+header {
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    flex: 0 1 100%;
+    grid-column: 1 / -1;
+}
 .home-page-header__logo{
     display: flex;
     width: 100%;
@@ -30,24 +46,93 @@
 
 }
 
-/* body */
-body {
-  margin: 40px;
-  font-family: 'Open Sans', 'sans-serif';
-  background-color: #fff;
-  color: #444;
-}
-
-footer {
-    margin-left: 5px;
-    margin-right: 5px;
+/* footer */
+.footer {
     flex: 0 1 100%;
     grid-column: 1 / -1;
-  }
+    background-color: cornflowerblue;
+}
+.footer-copyright{
+    background-color: rgba(62, 91, 145, 0.753);
+}
 
-  /* dsdsdsd */
-  .panelA {
-        grid-column: col / span 2;
-        grid-row: row;
-        background-color: slateblue;
-  }
+/* texto conteudo*/
+p, .itensConteudo{
+    font-size: 120%;
+}
+.itensConteudo::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+}
+.itensConteudo:hover {
+  color: cornflowerblue; 
+}
+.itensConteudo:hover::before {
+  border-color: cornflowerblue; 
+}
+/* Icone Links*/
+.linksFooter__icons{
+    width: 30px;
+    height: 30px;
+}
+/* grid */
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 100px ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: #fff;
+    color: #444;
+}
+.panelA {
+    grid-column: col / span 37;
+    grid-row: row;
+    /* background-color: slateblue; */
+}
+.panelB {
+    grid-column: col  / span 37;
+    grid-row: row 2;
+    /* background-color: red; */
+}
+.panelC {
+    grid-column: col  / span 37;
+    grid-row: row 3;
+    /* background-color: green; */
+}
+.panelD {
+    grid-column: col  / span 37;
+    grid-row: row 4;
+    /* background-color: yellow; */
+}
+.panelE {
+    grid-column: col  / span 37;
+    grid-row: row 5;
+    /* background-color: whitesmoke; */
+}
+.panelF {
+    grid-column: col  / span 37;
+    grid-row: row 6;
+    /* background-color: blue; */
+}
+.panelG {
+    grid-column: col  / span 37;
+    grid-row: row 7;
+    /* background-color: brown; */
+}
+.panel1 {
+    grid-column: col  / span 10;
+    grid-row: row ;
+    background-color: green;
+}
+.panel2 {
+    grid-column: col 21 / span 3;
+    grid-row: row;
+    background-color: red;
+}

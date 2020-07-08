@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxfinder</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <nav>
+        <!-- Itens Dropdowm consulta -->
+        <ul id="dpdConsulta" class="dropdown-content">
+            <li><a href="#">ICMS</a></li>
+            <li class="divider"></li>
+            <li><a href="ipi.html">IPI</a></li>
+            <li class="divider"></li>
+            <li><a href="pis.html">PIS</a></li>
+            <li class="divider"></li>
+            <li><a href="cofins.html">COFINS</a></li>
+            <li class="divider"></li>
+            <li><a href="iss.html">Impostos s/ Serviços</a></li>
+        </ul>
+        <div class="nav-wrapper"><a href="index.html" class="brand-logo">TAXFINDER</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Início</a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dpdConsulta">Consultar Legislações<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="badges.html">Sobre</a></li>
+                <li><a href="badges.html">Fale Conosco</a></li>  
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="wrapper">
+            <div class="panelA"><h2>O que é o ICMS?</h2>
+                <p> 
+                    O Imposto sobre Circulação de Mercadorias e Serviços é um tributo estadual que incide sobre produtos de diferentes tipos, desde eletrodomésticos a chicletes, e que se aplica tanto a comercialização dentro do país como em bens importados.
+                </p>
+                <p>
+                    Na prática, este imposto é cobrado de forma indireta, ou seja, seu valor é adicionado ao preço do produto comercializado ou do serviço prestado. Ao vender uma mercadoria ou realizar alguma operação em que se aplique o ICMS, é efetuado o fato gerador quando a titularidade deste bem ou serviço passa para o comprador. Ou seja, o tributo só é cobrado quando a mercadoria é vendida ou o serviço é prestado para o consumidor, que passa a ser o titular deste item ou do resultado da atividade realizada.
+                </p>
+                <p> 
+                    A regulamentação deste imposto é de responsabilidade de cada Estado e do Distrito Federal, que estipulam a porcentagem cobrada em suas regiões de atuação. Assim, cada localidade possui sua própria tarifa, o que pode trazer dúvidas a quem comercializa produtos para outras unidades federativas (UF) – este é um assunto que iremos abordar mais tarde. No entanto, algumas leis em comum são estabelecidas pelos Convênios ICMS, feitos pelo Conselho Nacional de Política Fazendária (Confaz).
+                </p>
+            </div>
+            <div class="panelB"><h2>Como calcular o ICMS?</h2>
+                <p> 
+                    Para começar, é necessário saber qual alíquota é praticada no estado em que sua empresa atua. Em uma situação normal, no qual a venda é efetuada na mesma UF, a fórmula é simples:
+                </p>
+                <p> 
+                    Preço do produto X Alíquota praticada no estado = Valor do ICMS da mercadoria
+                </p>
+                <p> 
+                    Exemplo: Um produto custa R$ 100 reais e sobre ele incide uma tarifa de 18% (valor aplicado em vários estados como São Paulo, Rio de Janeiro e Paraná), o cálculo seria o seguinte:
+                </p>
+                <p> 
+                    R$ 100 X 18% = R$ 118
+                </p>
+                <p> 
+                    Ou seja, neste caso o valor do ICMS deste produto seria de R$ 18, totalizando R$ 118.
+                </p>
+            </div>
+            <div class="panelC"><h2>E quando realizo operações com ICMS interestadual?</h2>
+                <p>
+                    Quando a empresa atua em diferentes estados, deve-se ter atenção a esta distinção entre as tarifas cobradas em uma localidade e outra.
+                </p>
+                <p>
+                    Nestes casos, aplica-se o DIFAL – Diferencial de Alíquota, criado para reduzir a desigualdade de arrecadação entre um estado e outro, pois, ao oferecer valores mais baixos, uma região acaba sendo mais atrativa aos negócios e acaba concentrando a renda em apenas uma localidade.
+                </p>
+                <p>
+                    Antigamente, o valor integral do ICMS ficava com o estado no qual a mercadoria foi vendida. No entanto, com a implementação do Convênio ICMS 93/2015, o imposto começou a ser partilhado gradualmente entre a localidade de origem e a UF de destino do produto.
+                </p>
+                <p>
+                    Em 2018, 80% do valor do ICMS deve ser destinado ao estado de destino do produto, enquanto os 20% restantes ficam com o UF de origem. A partir de 2019 é que o valor do imposto será recolhido integralmente ao local onde a mercadoria foi comprada.
+                </p>
+                <p>
+                    Cliente da Contabilizei fica tranquilo quanto à DIFAL, este serviço está incluso em nosso serviços!
+                </p>
+                <p>
+                    Para ficar mais fácil de entender, podemos dizer que existem 3 tipos de ICMS:
+                </p>
+                <ul>
+                    <li class="itensConteudo">
+                        O ICMS normal, que faz parte do conjunto de impostos do Simples Nacional e o empresário já paga na guia DAS;
+                    </li>
+                    <li class="itensConteudo">
+                        O ICMS substituição tributária, que incide sobre algumas mercadorias e operações interestaduais;
+                    </li>
+                    <li class="itensConteudo">
+                        O ICMS diferencial de alíquota que incide sobre a compra de mercadorias de outros estados.
+                    </li>
+                </ul>
+                
+                <p>
+                    De maneira prática, se você compra suas mercadorias de fornecedores de outros estados, você deve recolher o ICMS diferencial de alíquota.
+                </p>
+                <p>
+                    Se os produtos que você comercializa estão sujeitos à substituição tributária, o ICMS também deve ser pago.
+                </p>
+            </div> 
+
+            <div class="panelD"><h2>Quais operações incidem o ICMS?</h2>
+                <p>
+                    Praticamente todas. O ICMS é uma das principais fontes de arrecadação dos estados, uma vez que incide tanto para pessoas físicas quanto jurídicas. No caso das empresas, este tributo é incidido nestas movimentações:
+                </p>
+                <ul>
+                    <li class="itensConteudo">
+                        Venda e transferência de produtos;
+                    </li>
+                    <li class="itensConteudo">
+                        Transporte entre municípios ou estados brasileiros, seja de bens, pessoas ou valores; 
+                    </li>
+                    <li class="itensConteudo">
+                        Importação de mercadorias, mesmo que para consumo próprio e não com o objetivo de revenda;
+                    </li>
+                    <li class="itensConteudo">
+                        Prestação de serviço no exterior;
+                    </li>
+                    <li class="itensConteudo">
+                        Serviços de telecomunicação.
+                    </li>
+                </ul>
+                <p>
+                    Ou seja, caso seu negócio realize venda de produtos, como um e-commerce ou loja física, preste serviços de telecomunicação ou então faça consultorias para pessoas físicas, ou jurídicas no exterior é necessário fazer o recolhimento deste imposto.
+                </p>
+            </div>
+
+            <div class="panelE"><h2>Quais operações não incidem o ICMS?</h2>
+                <p>
+                    Apesar da sua ampla aplicação, há algumas atividades que não estão enquadradas na cobrança deste tributo. Entre elas estão:
+                </p>
+                <ul>
+                    <li class="itensConteudo">
+                        Comercialização e circulação de livros, jornais e periódicos, incluindo o papel utilizado em sua impressão;
+                    </li>
+                    <li class="itensConteudo">
+                        Exportação de mercadorias;
+                    </li>
+                    <li class="itensConteudo">
+                        Operações relativas à energia elétrica, petróleo e combustíveis;
+                    </li>
+                    <li class="itensConteudo">
+                        Operações relacionadas a ouro, quando considerado ativo financeiro ou instrumento cambial;
+                    </li>
+                    <li class="itensConteudo">
+                        Operações de arrendamento mercantil;
+                    </li>
+                    <li class="itensConteudo">
+                        Operações de alienação fiduciária em garantia;
+                    </li>
+                    <li class="itensConteudo">
+                        Transferência de propriedades ou bens móveis, sejam de estabelecimentos comerciais, industriais ou de outra espécie;
+                    </li>
+                    <li class="itensConteudo">
+                        Mercadorias destinadas à prestação de serviço do próprio autor, caso autorizado pela lei complementar municipal;
+                    </li>
+                    <li class="itensConteudo">
+                        Casos específicos da legislação estadual.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="panelF"><h2>Como pago ICMS?</h2>
+                <p>
+                    Para realizar o recolhimento do ICMS a empresa deve se cadastrar na Secretaria de Estado da Fazenda (Sefaz) da região de sua atuação. Neste processo, é adquirida sua Inscrição Estadual (IE), uma sequência numérica confirmando que seu negócio é contribuinte deste imposto.
+                </p>
+                <p>
+                    É importante ficar atento, uma vez que o cadastro varia de estado para estado. Para isso, entre em contato com a Sefaz de sua localidade para saber quais são os documentos exigidos e o procedimento para fazer sua IE ou conte com a ajuda de um contador.
+                </p>
+            </div>
+            <!-- <div class="panelG"><h2>Incidência de ICMS</h2>
+                
+            </div> -->
+
+
+        </div>
+    </section>
+
+    <footer class="footer">My footer</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
