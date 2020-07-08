@@ -1,6 +1,5 @@
 //Navbar dropdown
-const elemsDropdown = document.querySelectorAll(".dropdown-trigger");
-const instancesDropdown = M.Dropdown.init(elemsDropdown,{
-    coverTrigger: false,
-    hover: false
-});
+$(document).ready(function(){
+    $('.modal').modal();
+    $('.dropdown-trigger').dropdown({hover: true, coverTrigger:false});
+ });

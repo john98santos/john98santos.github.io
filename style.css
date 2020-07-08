@@ -1,0 +1,18 @@
+/* Elementos Nav */
+.nav-wrapper{
+    background-color: cornflowerblue;
+}
+#dpdConsulta a{
+    color: cornflowerblue;
+}
+
+/* Elementos Header */
+.home-page-header__logo{
+    width: 100%;
+    display: block;
+
+    /* top: 100px;
+    left: 120px; */
+    /* width: 433px;
+    height: 334px;  */
+}
